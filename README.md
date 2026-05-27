@@ -1,18 +1,12 @@
 # S3 Wordlist Generator
 
 Build S3 bucket-name wordlists from a domain, a common-name list, and generated tokens.
-Use it to create names that follow a specific pattern for authorized S3 bucket testing.
-
-## Requirements
-
-- Python 3
-- `common-s3-bucket-names-list.txt` in the same folder as `s3_wordlist_generator.py`
+Use it to create wordlists that follow a specific pattern for authorized S3 bucket testing.
 
 ## Quick Start
 
-```powershell
-python s3_wordlist_generator.py 1-name--domain
-```
+python3 s3_wordlist_generator.py 1-name--domain
+
 
 This creates candidates in this format:
 
